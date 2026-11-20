@@ -1,0 +1,1710 @@
+{
+  "repo": "wildfire-api-endpoints",
+  "title": "Wildfire API endpoints",
+  "snapshot": "2026-11-15",
+  "snapshot_text": "15 Nov 2026",
+  "snapshot_time": "2026-11-15 09:06:22 IST",
+  "tested_total": 5129834,
+  "passed_total": 3726509,
+  "rows": 6584,
+  "unique_urls": 6584,
+  "services": 1279,
+  "country_codes": 40,
+  "single_country": null,
+  "agent_ready": 6146,
+  "range": {
+    "min": "2026-11-10",
+    "max": "2026-11-15",
+    "text": "10–15 Nov 2026"
+  },
+  "formats": {
+    "json": 6146,
+    "xml": 294,
+    "csv": 84,
+    "geojson": 33,
+    "zip": 27
+  },
+  "categories": {
+    "Hazards": 6246,
+    "Science": 152,
+    "Government & Open Data": 85,
+    "Environment": 40,
+    "Navigation & Geo/Maps": 26,
+    "Aviation": 12,
+    "Weather & Climate": 11,
+    "Maritime": 4,
+    "Transport & Mobility": 4,
+    "Statistics & Economy": 2,
+    "Energy": 1,
+    "Hydrology & Oceans": 1
+  },
+  "tags": {
+    "no-key": 6584,
+    "wildfire": 6584,
+    "hazards": 6255,
+    "agent-ready": 6146,
+    "json": 6146,
+    "maps": 4928,
+    "open-data": 732,
+    "xml": 294,
+    "government": 232,
+    "science": 172,
+    "weather": 128,
+    "csv": 84,
+    "environment": 76,
+    "statistics": 59,
+    "floods": 45,
+    "climate": 33,
+    "earthquakes": 33,
+    "geojson": 33,
+    "rivers": 27,
+    "forecast": 20,
+    "health": 19,
+    "aviation": 17,
+    "air-quality": 15,
+    "transit": 14,
+    "energy": 11,
+    "elevation": 10,
+    "finance": 8,
+    "oceans": 6,
+    "maritime": 4,
+    "groundwater": 2,
+    "ai-ml": 1,
+    "economy": 1,
+    "geocoding": 1,
+    "mcp-server": 1,
+    "tides": 1,
+    "water": 1
+  },
+  "dates": {
+    "2026-11-15": 2623,
+    "2026-11-14": 3938,
+    "2026-11-13": 2,
+    "2026-11-12": 11,
+    "2026-11-11": 9,
+    "2026-11-10": 1
+  },
+  "countryNames": {
+    "US": "United States",
+    "AU": "Australia",
+    "GB": "United Kingdom",
+    "CA": "Canada",
+    "CN": "China",
+    "ES": "Spain",
+    "KR": "South Korea",
+    "PT": "Portugal",
+    "IO": "British Indian Ocean Territory",
+    "EU": "European Union",
+    "IT": "Italy",
+    "CO": "Colombia",
+    "NO": "Norway",
+    "FR": "France",
+    "NL": "Netherlands",
+    "SY": "Syria",
+    "DE": "Germany",
+    "LA": "Laos",
+    "TH": "Thailand",
+    "CZ": "Czechia",
+    "CH": "Switzerland",
+    "DK": "Denmark",
+    "BT": "Bhutan",
+    "NZ": "New Zealand",
+    "LV": "Latvia",
+    "AT": "Austria",
+    "GR": "Greece",
+    "IE": "Ireland",
+    "ZA": "South Africa",
+    "SE": "Sweden",
+    "PK": "Pakistan",
+    "HK": "Hong Kong",
+    "PR": "Puerto Rico",
+    "MM": "Myanmar",
+    "SK": "Slovakia",
+    "KH": "Cambodia",
+    "IN": "India",
+    "AI": "Anguilla",
+    "MN": "Mongolia",
+    "BA": "Bosnia and Herzegovina"
+  },
+  "leftOutCredential": 0,
+  "leftOutListing": 0,
+  "left_out_by_reason": {
+    "listing page, not a data call": 0,
+    "credential in the address": 0,
+    "private or local address": 0,
+    "email-like address": 0,
+    "survey form layer": 135,
+    "camera or image URL": 0,
+    "stored-login proxy": 0,
+    "class-exercise copy": 0,
+    "editable layer": 2,
+    "police stop records": 0,
+    "form answer layer": 18,
+    "needs an Indian network location": 0,
+    "leak check match": 0,
+    "coursework layer": 59,
+    "public input layer": 6,
+    "service name like a class layer or a person": 0,
+    "social network server information": 0,
+    "repeated address": 0
+  },
+  "leftOutExcluded": 139,
+  "left_out_by_rule": [
+    {
+      "rule": "url contains \"/7tj7rgpq1fcYCLtB/\"",
+      "text": "class-exercise copies of the same few wildfire layers in one ArcGIS Online organisation, many with a person's name in the title",
+      "rows": 139
+    }
+  ],
+  "sample_rows": 1000,
+  "focus_rows": 3250,
+  "arcgis_online_rows": 4517,
+  "subcategories": {},
+  "agent_formats": [
+    "json"
+  ],
+  "largestServices": [
+    {
+      "service": "Nasa",
+      "display": "Nasa",
+      "host": "eonet.gsfc.nasa.gov",
+      "endpoints": 922,
+      "agent_ready": 922,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Usgs",
+      "display": "Usgs",
+      "host": "data.usgs.gov",
+      "endpoints": 204,
+      "agent_ready": 0,
+      "in_focus": 164,
+      "country_codes": 1,
+      "formats": [
+        "xml"
+      ]
+    },
+    {
+      "service": "National Interagency Fire Center (ArcGIS Online)",
+      "display": "National Interagency Fire Center (ArcGIS Online)",
+      "host": "services3.arcgis.com",
+      "endpoints": 132,
+      "agent_ready": 132,
+      "in_focus": 44,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "U.S. Forest Service (ArcGIS Online)",
+      "display": "U.S. Forest Service (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 119,
+      "agent_ready": 119,
+      "in_focus": 38,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "S3 (AWS)",
+      "display": "S3 (AWS)",
+      "host": "maxar-opendata.s3.amazonaws.com",
+      "endpoints": 101,
+      "agent_ready": 101,
+      "in_focus": 0,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Napsgfoundation",
+      "display": "Napsgfoundation",
+      "host": "prep-response-portal.napsgfoundation.org",
+      "endpoints": 90,
+      "agent_ready": 36,
+      "in_focus": 53,
+      "country_codes": 0,
+      "formats": [
+        "json",
+        "csv",
+        "zip",
+        "xml",
+        "geojson"
+      ]
+    },
+    {
+      "service": "ArcGIS organization 0MSEUqKaxRlEPj5g",
+      "display": "ArcGIS Online layers (services1.arcgis.com, org 0MSEUqKaxRlEPj5g)",
+      "host": "services1.arcgis.com",
+      "endpoints": 81,
+      "agent_ready": 81,
+      "in_focus": 73,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Doi",
+      "display": "Doi",
+      "host": "doi.org",
+      "endpoints": 73,
+      "agent_ready": 73,
+      "in_focus": 53,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization YseQBnl2jq0lrUV5",
+      "display": "ArcGIS Online layers (services.arcgis.com, org YseQBnl2jq0lrUV5)",
+      "host": "services.arcgis.com",
+      "endpoints": 69,
+      "agent_ready": 69,
+      "in_focus": 63,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Konza Prairie (ArcGIS Online)",
+      "display": "Konza Prairie (ArcGIS Online)",
+      "host": "services3.arcgis.com",
+      "endpoints": 68,
+      "agent_ready": 68,
+      "in_focus": 20,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Usda",
+      "display": "Usda",
+      "host": "apps.fs.usda.gov",
+      "endpoints": 68,
+      "agent_ready": 68,
+      "in_focus": 51,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Oregon ArcGIS Online (ArcGIS Online)",
+      "display": "Oregon ArcGIS Online (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 67,
+      "agent_ready": 67,
+      "in_focus": 46,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "California Department of Forestry and Fire Protection (ArcGIS Online)",
+      "display": "California Department of Forestry and Fire Protection (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 54,
+      "agent_ready": 54,
+      "in_focus": 19,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS Online for Ontario Schools (ArcGIS Online)",
+      "display": "ArcGIS Online for Ontario Schools (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 49,
+      "agent_ready": 49,
+      "in_focus": 47,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "UC Davis Continuing and Professional Education (ArcGIS Online)",
+      "display": "UC Davis Continuing and Professional Education (ArcGIS Online)",
+      "host": "services7.arcgis.com",
+      "endpoints": 48,
+      "agent_ready": 48,
+      "in_focus": 39,
+      "country_codes": 6,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "GIS Online at UCLA (ArcGIS Online)",
+      "display": "GIS Online at UCLA (ArcGIS Online)",
+      "host": "services7.arcgis.com",
+      "endpoints": 46,
+      "agent_ready": 46,
+      "in_focus": 22,
+      "country_codes": 2,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Eoapi",
+      "display": "Eoapi",
+      "host": "stac.eoapi.dev",
+      "endpoints": 46,
+      "agent_ready": 42,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Oregon State University GISci (ArcGIS Online)",
+      "display": "Oregon State University GISci (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 40,
+      "agent_ready": 40,
+      "in_focus": 14,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization x4h61KaW16vFs7PM",
+      "display": "ArcGIS Online layers (services1.arcgis.com, org x4h61KaW16vFs7PM)",
+      "host": "services1.arcgis.com",
+      "endpoints": 35,
+      "agent_ready": 35,
+      "in_focus": 12,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "County of Los Angeles (ArcGIS Online)",
+      "display": "County of Los Angeles (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 34,
+      "agent_ready": 34,
+      "in_focus": 16,
+      "country_codes": 2,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization YiULsZbgRKmBtdZN",
+      "display": "ArcGIS Online layers (services1.arcgis.com, org YiULsZbgRKmBtdZN)",
+      "host": "services1.arcgis.com",
+      "endpoints": 32,
+      "agent_ready": 32,
+      "in_focus": 22,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "CA Governor's Office of Emergency Services (ArcGIS Online)",
+      "display": "CA Governor's Office of Emergency Services (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 32,
+      "agent_ready": 32,
+      "in_focus": 2,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "University of Minnesota (ArcGIS Online)",
+      "display": "University of Minnesota (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 32,
+      "agent_ready": 32,
+      "in_focus": 24,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "FEMA AGOL (ArcGIS Online)",
+      "display": "FEMA AGOL (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 31,
+      "agent_ready": 31,
+      "in_focus": 11,
+      "country_codes": 2,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "The Claremont Colleges Library (ArcGIS Online)",
+      "display": "The Claremont Colleges Library (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 31,
+      "agent_ready": 31,
+      "in_focus": 21,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    }
+  ],
+  "bannerGroups": [
+    {
+      "label": "US",
+      "n": 5323,
+      "agent": 5079
+    },
+    {
+      "label": "CA",
+      "n": 193,
+      "agent": 154
+    },
+    {
+      "label": "AU",
+      "n": 161,
+      "agent": 139
+    },
+    {
+      "label": "GB",
+      "n": 100,
+      "agent": 86
+    },
+    {
+      "label": "ES",
+      "n": 28,
+      "agent": 24
+    },
+    {
+      "label": "IO",
+      "n": 24,
+      "agent": 24
+    }
+  ],
+  "focus_text": "title matches /wild ?fires?|wildland|bush ?fires?|forest ?fires?|brush ?fires?|grass ?fires?|veld ?fires?|fire ?(perimet|danger|weather|histor|risk|hazard|season|occurrence|severity|behavio|regime|threat|incident|ignition|scar|footprint|progression|prone|management|mitigation|protection plan|resilien)|burn(ed|t)? ?(area|scar|severity|probability|perimet)|prescribed (burn|fire)|\\bfuels?\\b|smoke|hot ?spots?|\\bwui\\b|wildland.urban|fireshed|cwpp|\\bmtbs|wfigs|\\bfirms\\b|viirs|incendi|waldbrand|bosbrand|feux? de for|požiar|poziar/i AND NOT title matches /fire ?stations?|hydrant|fire ?districts?|fire ?departments?|fire ?hall|police/i AND NOT title matches /missing person/i AND NOT url matches /request=getcapabilities|/csw/i AND NOT title matches /superseded/i AND NOT host in (sampleserver6.arcgisonline.com, test.maps.gov.bc.ca)",
+  "buckets": [
+    {
+      "id": "agent",
+      "emoji": "🤖",
+      "name": "Agent tools",
+      "title": "Fire perimeters, fire-danger and wildfire-risk layers an agent can query",
+      "build": "Wrap one layer query as a get_fire_layer tool: pass a place or bounding box, return the fire name, size, containment or danger class with a timeout.",
+      "filter": {
+        "and": [
+          {
+            "tag": "agent-ready"
+          },
+          {
+            "titleMatches": "wild ?fires?|wildland|bush ?fires?|forest ?fires?|brush ?fires?|grass ?fires?|veld ?fires?|fire ?(perimet|danger|weather|histor|risk|hazard|season|occurrence|severity|behavio|regime|threat|incident|ignition|scar|footprint|progression|prone|management|mitigation|protection plan|resilien)|burn(ed|t)? ?(area|scar|severity|probability|perimet)|prescribed (burn|fire)|\\bfuels?\\b|smoke|hot ?spots?|\\bwui\\b|wildland.urban|fireshed|cwpp|\\bmtbs|wfigs|\\bfirms\\b|viirs|incendi|waldbrand|bosbrand|feux? de for|požiar|poziar"
+          }
+        ]
+      },
+      "filter_text": "tags has agent-ready AND title matches /wild ?fires?|wildland|bush ?fires?|forest ?fires?|brush ?fires?|grass ?fires?|veld ?fires?|fire ?(perimet|danger|weather|histor|risk|hazard|season|occurrence|severity|behavio|regime|threat|incident|ignition|scar|footprint|progression|prone|management|mitigation|protection plan|resilien)|burn(ed|t)? ?(area|scar|severity|probability|perimet)|prescribed (burn|fire)|\\bfuels?\\b|smoke|hot ?spots?|\\bwui\\b|wildland.urban|fireshed|cwpp|\\bmtbs|wfigs|\\bfirms\\b|viirs|incendi|waldbrand|bosbrand|feux? de for|požiar|poziar/i",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 2828,
+          "text": "are map-layer queries that asked for a few records (`resultRecordCount`); raise it or page through for the whole layer."
+        }
+      ],
+      "count": 2986,
+      "services_matching": 938,
+      "country_codes_matching": 36,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://doi.org/10.5066/F76Q1WJ1",
+        "title": "Mapped fire perimeters from the Sky Island Mountains of US and Mexico: 1985-2011 - Digital Data",
+        "service": "Doi",
+        "last_tested": "2026-11-15"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged `agent-ready` (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i AND title matches /current|\\bactive|incident|perimet|hot ?spots?|fire danger|fire weather|\\bfirms\\b|viirs/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 936,
+        "services": [
+          {
+            "service": "Doi",
+            "display": "Doi",
+            "host": "doi.org",
+            "endpoints_in_bucket": 53,
+            "endpoints_in_pack": 73,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://doi.org/10.5066/F76Q1WJ1",
+            "sample_title": "Mapped fire perimeters from the Sky Island Mountains of US and Mexico: 1985-2011 - Digital Data",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Usda",
+            "display": "Usda",
+            "host": "apps.fs.usda.gov",
+            "endpoints_in_bucket": 51,
+            "endpoints_in_pack": 68,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_FireOccurrenceAndPerimeter_01/MapServer/10/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "National USFS Final Fire Perimeter (Feature Layer)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "ArcGIS Online for Ontario Schools (ArcGIS Online)",
+            "display": "ArcGIS Online for Ontario Schools (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 47,
+            "endpoints_in_pack": 49,
+            "country_codes": [
+              "CA"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/QI0dObYawrKkuwDp/arcgis/rest/services/- Forest Fires 5okm/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "- Forest Fires 5okm",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Oregon ArcGIS Online (ArcGIS Online)",
+            "display": "Oregon ArcGIS Online (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 47,
+            "endpoints_in_pack": 67,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/uUvqNMGPm7axC2dD/arcgis/rest/services/2020_Wildfire_VOC_Sampling_-_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "2020 Wildfire VOC Sampling - View",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "National Interagency Fire Center (ArcGIS Online)",
+            "display": "National Interagency Fire Center (ArcGIS Online)",
+            "host": "services3.arcgis.com",
+            "endpoints_in_bucket": 44,
+            "endpoints_in_pack": 132,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services/WFIGS_Incident_Locations_Last24h/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "NIFC Wildfires Point Locations Last 24 Hours",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "UC Davis Continuing and Professional Education (ArcGIS Online)",
+            "display": "UC Davis Continuing and Professional Education (ArcGIS Online)",
+            "host": "services7.arcgis.com",
+            "endpoints_in_bucket": 39,
+            "endpoints_in_pack": 48,
+            "country_codes": [
+              "CA",
+              "DE",
+              "FR",
+              "GB",
+              "PT",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services7.arcgis.com/yiuFazTjHE8F5gzQ/arcgis/rest/services/Air_Monitoring_Stations_and_wildfires_WFL1/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Air Monitoring Stations and wildfires_WFL1",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "U.S. Forest Service (ArcGIS Online)",
+            "display": "U.S. Forest Service (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 38,
+            "endpoints_in_pack": 119,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/gGHDlz6USftL5Pau/arcgis/rest/services/2020_Oregon_Wildfires/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "2020_Oregon_Wildfires",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "gisuat.mcgi.state.mi.us",
+            "display": "gisuat.mcgi.state.mi.us",
+            "host": "gisuat.mcgi.state.mi.us",
+            "endpoints_in_bucket": 31,
+            "endpoints_in_pack": 31,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://gisuat.mcgi.state.mi.us/arcgis/rest/services/DNR/Wildfire/MapServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "gisuat.mcgi.state.mi.us: DNR/Wildfire / Fire Incident State - Active",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "name": "App features",
+      "title": "Fire perimeters, incidents, hotspots and fire-danger maps",
+      "build": "Draw the fires near a user on a map: query a perimeter or incident layer with a bounding box (`geometry=` and `returnGeometry=true`), then shade the area by fire-danger rating.",
+      "filter": {
+        "titleMatches": "current|\\bactive|incident|perimet|hot ?spots?|fire danger|fire weather|\\bfirms\\b|viirs"
+      },
+      "filter_text": "title matches /current|\\bactive|incident|perimet|hot ?spots?|fire danger|fire weather|\\bfirms\\b|viirs/i",
+      "fallback": false,
+      "notes": [],
+      "count": 565,
+      "services_matching": 247,
+      "country_codes_matching": 7,
+      "formats_matching": 5,
+      "example": {
+        "url": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/EGP_Active_Incidents_Prod_Public_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+        "title": "Active Wildfire",
+        "service": "National Interagency Fire Center (ArcGIS Online)",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `title matches /current|active/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 209,
+        "services": [
+          {
+            "service": "Napsgfoundation",
+            "display": "Napsgfoundation",
+            "host": "prep-response-portal.napsgfoundation.org",
+            "endpoints_in_bucket": 50,
+            "endpoints_in_pack": 90,
+            "country_codes": [],
+            "formats": [
+              "json",
+              "zip",
+              "csv"
+            ],
+            "formats_in_pack": 5,
+            "sample_url": "https://prep-response-portal.napsgfoundation.org/api/download/v1/items/9c407d9f46624e98aa4fca1520a3a8f7/csv?layers=11",
+            "sample_title": "US Fire Perimeters 2011 - CSV",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "National Interagency Fire Center (ArcGIS Online)",
+            "display": "National Interagency Fire Center (ArcGIS Online)",
+            "host": "services3.arcgis.com",
+            "endpoints_in_bucket": 40,
+            "endpoints_in_pack": 132,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/EGP_Active_Incidents_Prod_Public_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Active Wildfire",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "California Department of Forestry and Fire Protection (ArcGIS Online)",
+            "display": "California Department of Forestry and Fire Protection (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 15,
+            "endpoints_in_pack": 54,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/arcgis/rest/services/2023_California_Fire_Perimeters_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "2023 California Fire Perimeters View",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "CA Governor's Office of Emergency Services (ArcGIS Online)",
+            "display": "CA Governor's Office of Emergency Services (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 14,
+            "endpoints_in_pack": 32,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/BLN4oKB0N1YSgvY8/arcgis/rest/services/Current_Wildfires_from_IRWIN_Public_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Current Wildfires from IRWIN Public View",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "California Natural Resources Agency Open",
+            "display": "California Natural Resources Agency Open",
+            "host": "gis.data.cnra.ca.gov",
+            "endpoints_in_bucket": 8,
+            "endpoints_in_pack": 10,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "csv",
+              "zip",
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://gis.data.cnra.ca.gov/api/download/v1/items/c3c10388e3b24cec8a954ba10458039d/geojson?layers=0",
+            "sample_title": "California Fire Perimeters (all) - GeoJSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "U.S. Forest Service (ArcGIS Online)",
+            "display": "U.S. Forest Service (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 8,
+            "endpoints_in_pack": 119,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/gGHDlz6USftL5Pau/arcgis/rest/services/ActiveWildfires12_2021_9_2023/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "ActiveWildfires12_2021_9_2023",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Louisiana Homeland Security and Emergency Preparedness (ArcGIS Online)",
+            "display": "Louisiana Homeland Security and Emergency Preparedness (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 7,
+            "endpoints_in_pack": 8,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/fXHQyq63u0UsTeSM/arcgis/rest/services/Highway_113_Wildfire_Perimeter_for_August_31/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Highway 113 Wildfire Perimeter for August 31",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "The Claremont Colleges Library (ArcGIS Online)",
+            "display": "The Claremont Colleges Library (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 7,
+            "endpoints_in_pack": 31,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/hVnyNvwbpFFPDV5j/arcgis/rest/services/CA_Fire_Hotspots/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "CA Fire Hotspots",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grounding",
+      "emoji": "🧠",
+      "name": "Grounding and data pipelines",
+      "title": "Fire history, burn severity, fuels and wildfire-risk layers for scheduled loads",
+      "build": "Load fire history and wildfire-risk layers on a schedule into your own store, so answers about the fire risk at a place cite a dated source and a layer name.",
+      "filter": {
+        "or": [
+          {
+            "titleMatches": "histor|risk|hazard|fuels?\\b|severity|\\bmtbs|occurrence|prone|overlay|regime|burn(ed|t)? ?area|incendi|waldbrand"
+          },
+          {
+            "format": [
+              "csv",
+              "xml",
+              "zip"
+            ]
+          }
+        ]
+      },
+      "filter_text": "title matches /histor|risk|hazard|fuels?\\b|severity|\\bmtbs|occurrence|prone|overlay|regime|burn(ed|t)? ?area|incendi|waldbrand/i OR format in (csv, xml, zip)",
+      "fallback": false,
+      "notes": [],
+      "count": 1288,
+      "services_matching": 446,
+      "country_codes_matching": 20,
+      "formats_matching": 5,
+      "example": {
+        "url": "https://data.usgs.gov/datacatalog/metadata/USGS.5628198be4b0d158f5926acc.xml",
+        "title": "Fire severity, sagebrush types, and soil regimes within large wildfires in greater sage-grouse population areas, 1984-2013 - Original Metadata",
+        "service": "Usgs",
+        "last_tested": "2026-11-15"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 379,
+        "services": [
+          {
+            "service": "Usgs",
+            "display": "Usgs",
+            "host": "data.usgs.gov",
+            "endpoints_in_bucket": 204,
+            "endpoints_in_pack": 204,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://data.usgs.gov/datacatalog/metadata/USGS.5628198be4b0d158f5926acc.xml",
+            "sample_title": "Fire severity, sagebrush types, and soil regimes within large wildfires in greater sage-grouse population areas, 1984-2013 - Original Metadata",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Napsgfoundation",
+            "display": "Napsgfoundation",
+            "host": "prep-response-portal.napsgfoundation.org",
+            "endpoints_in_bucket": 55,
+            "endpoints_in_pack": 90,
+            "country_codes": [],
+            "formats": [
+              "csv",
+              "zip",
+              "xml",
+              "json"
+            ],
+            "formats_in_pack": 5,
+            "sample_url": "https://prep-response-portal.napsgfoundation.org/api/download/v1/items/99599b05214b452fa152fa28b0098a13/geojson?layers=0",
+            "sample_title": "Wildfire History by Age - GeoJSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "National Interagency Fire Center (ArcGIS Online)",
+            "display": "National Interagency Fire Center (ArcGIS Online)",
+            "host": "services3.arcgis.com",
+            "endpoints_in_bucket": 46,
+            "endpoints_in_pack": 132,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/AK_Fire_History_Summary/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "AK Fire History Summary",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Usda",
+            "display": "Usda",
+            "host": "apps.fs.usda.gov",
+            "endpoints_in_bucket": 40,
+            "endpoints_in_pack": 68,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_FireOccurrenceAndPerimeter_01/MapServer/9/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "National USFS Fire Occurrence Point (Feature Layer)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Canadian Urban Data Catalogue (CUDC)",
+            "display": "Canadian Urban Data Catalogue (CUDC)",
+            "host": "openmaps.gov.bc.ca",
+            "endpoints_in_bucket": 23,
+            "endpoints_in_pack": 23,
+            "country_codes": [
+              "CA"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://openmaps.gov.bc.ca/kml/geo/layers/WHSE_FOREST_VEGETATION.VEG_BURN_SEVERITY_SAME_YR_SP_loader.kml",
+            "sample_title": "Fire Burn Severity - Same Year - Download KML Ground Overlay file",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "U.S. Forest Service (ArcGIS Online)",
+            "display": "U.S. Forest Service (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 22,
+            "endpoints_in_pack": 119,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/gGHDlz6USftL5Pau/arcgis/rest/services/DRDFinal_(2)/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Douglas Ranger District Fuels Treatments",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "BrisMAP Public (ArcGIS Online)",
+            "display": "BrisMAP Public (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 21,
+            "endpoints_in_pack": 21,
+            "country_codes": [
+              "AU",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/dEKgZETqwmDAh1rP/arcgis/rest/services/Bushfire_overlay/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "City Plan 2014 - Bushfire overlay",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Doi",
+            "display": "Doi",
+            "host": "doi.org",
+            "endpoints_in_bucket": 17,
+            "endpoints_in_pack": 73,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://doi.org/10.5066/F7T151VX",
+            "sample_title": "Data Release for the Validation of the USGS Landsat Burned Area Product across the conterminous U.S. - Digital Data",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evals",
+      "emoji": "🧪",
+      "name": "Evals and testing",
+      "title": "Perimeters, danger ratings and history layers to test a fire tool",
+      "build": "Run your fire tool against a fixed set of URLs across formats; check that fire name, area, date or danger class parse, and keep last_tested as the baseline for your own re-tests.",
+      "filter": {
+        "whole": true
+      },
+      "filter_text": "the whole pack",
+      "fallback": false,
+      "notes": [],
+      "count": 6584,
+      "services_matching": 1279,
+      "country_codes_matching": 40,
+      "formats_matching": 5,
+      "example": {
+        "url": "https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Annual_Wildfires/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+        "title": "Annual Wildfires",
+        "service": "ArcGIS Online layers (services1.arcgis.com, org 0MSEUqKaxRlEPj5g)",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 961,
+        "services": [
+          {
+            "service": "Napsgfoundation",
+            "display": "Napsgfoundation",
+            "host": "prep-response-portal.napsgfoundation.org",
+            "endpoints_in_bucket": 90,
+            "endpoints_in_pack": 90,
+            "country_codes": [],
+            "formats": [
+              "json",
+              "csv",
+              "zip",
+              "xml",
+              "geojson"
+            ],
+            "formats_in_pack": 5,
+            "sample_url": "https://prep-response-portal.napsgfoundation.org/api/download/v1/items/99599b05214b452fa152fa28b0098a13/geojson?layers=0",
+            "sample_title": "Wildfire History by Age - GeoJSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "ArcGIS Online: ACT Canopy Cover 2020 1m WESTON",
+            "display": "ArcGIS Online: ACT Canopy Cover 2020 1m WESTON",
+            "host": "actmapi-actgov.opendata.arcgis.com",
+            "endpoints_in_bucket": 8,
+            "endpoints_in_pack": 8,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "csv",
+              "json",
+              "zip",
+              "xml"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://actmapi-actgov.opendata.arcgis.com/api/download/v1/items/d555612fcbdd414d9c584f3b301dd746/geojson?layers=0",
+            "sample_title": "Bushfire Prone Area Overview 2026 - GeoJSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Sdsc",
+            "display": "Sdsc",
+            "host": "scil-data.sdsc.edu",
+            "endpoints_in_bucket": 14,
+            "endpoints_in_pack": 14,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json",
+              "csv",
+              "geojson"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://scil-data.sdsc.edu/data/ul-risk-modeling-2026/Forest/Forest_Treelist.geojson",
+            "sample_title": "Wildfire Risk Modeling Exercise: ckan_resource_geojson",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "California Natural Resources Agency Open",
+            "display": "California Natural Resources Agency Open",
+            "host": "gis.data.cnra.ca.gov",
+            "endpoints_in_bucket": 10,
+            "endpoints_in_pack": 10,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "zip",
+              "csv",
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://gis.data.cnra.ca.gov/api/download/v1/items/c3c10388e3b24cec8a954ba10458039d/geojson?layers=0",
+            "sample_title": "California Fire Perimeters (all) - GeoJSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "data.gov.au",
+            "display": "data.gov.au",
+            "host": "datahub.moretonbay.qld.gov.au",
+            "endpoints_in_bucket": 9,
+            "endpoints_in_pack": 9,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json",
+              "csv",
+              "xml"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://datahub.moretonbay.qld.gov.au/api/download/v1/items/2fa171d648414bc3834c74f0def35069/csv?layers=1",
+            "sample_title": "Overlay Maps:OC02 Bushfire Hazard - CSV",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Austintexas",
+            "display": "Austintexas",
+            "host": "data.austintexas.gov",
+            "endpoints_in_bucket": 7,
+            "endpoints_in_pack": 7,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json",
+              "xml",
+              "zip"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://data.austintexas.gov/api/views/2x9t-5ctm/rows.json?accessType=DOWNLOAD",
+            "sample_title": "Wildfire Hazard Potential Treatment Areas - JSON File",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "data.gov.au",
+            "display": "data.gov.au",
+            "host": "www.data.act.gov.au",
+            "endpoints_in_bucket": 4,
+            "endpoints_in_pack": 4,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json",
+              "csv",
+              "xml"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://www.data.act.gov.au/api/v3/views/sksx-b49e/query.json?accessType=DOWNLOAD",
+            "sample_title": "2003_Bushfire_Data",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Caribbeangeoportal",
+            "display": "Caribbeangeoportal",
+            "host": "www.caribbeangeoportal.com",
+            "endpoints_in_bucket": 3,
+            "endpoints_in_pack": 3,
+            "country_codes": [],
+            "formats": [
+              "csv",
+              "json",
+              "xml"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://www.caribbeangeoportal.com/api/download/v1/items/dece90af1a0242dcbf0ca36d30276aa3/geojson?layers=0",
+            "sample_title": "Satellite (VIIRS) Thermal Hotspots and Fire Activity - GeoJSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "q": "Which US wildfires have a mapped perimeter at the moment, and how large are they? The tested URL asks for five records and no geometry; raise `resultRecordCount` for more and set `returnGeometry=true` for the shapes.",
+      "filter": "url contains \"WFIGS_Interagency_Perimeters_Current\"",
+      "url": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+      "title": "Current Wildfire Perimeters - WFIGS",
+      "service": "National Interagency Fire Center (ArcGIS Online)",
+      "last_tested": "2026-11-14",
+      "matching": 1
+    },
+    {
+      "q": "Which current US wildfire incidents does WFIGS list, and when were they discovered? Set `returnGeometry=true` for their locations.",
+      "filter": "url contains \"WFIGS_Incident_Locations_Current\"",
+      "url": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+      "title": "Current Wildfire Incidents - WFIGS",
+      "service": "National Interagency Fire Center (ArcGIS Online)",
+      "last_tested": "2026-11-14",
+      "matching": 1
+    },
+    {
+      "q": "Where does the Storm Prediction Center outline elevated fire weather for day 1?",
+      "filter": "url contains \"fire_weather/SPC_firewx/MapServer/1/\"",
+      "url": "https://mapservices.weather.noaa.gov/vector/rest/services/fire_weather/SPC_firewx/MapServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+      "title": "Weather - Wildfire - Live - Polygon - Fire Weather Outlook Day 1 (SPC)",
+      "service": "Noaa",
+      "last_tested": "2026-11-14",
+      "matching": 1
+    },
+    {
+      "q": "What fire-danger class does the Canadian fire-danger map give a region?",
+      "filter": "url contains \"Active_Fire_Danger_Map_of_Canada\"",
+      "url": "https://services.arcgis.com/wjcPoefzjpzCgffS/arcgis/rest/services/Active_Fire_Danger_Map_of_Canada/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+      "title": "Fire Danger Map of Canada",
+      "service": "Esri Canada (ArcGIS Online)",
+      "last_tested": "2026-11-14",
+      "matching": 1
+    }
+  ],
+  "preview_focused": true,
+  "preview": [
+    {
+      "title": "Fire severity, sagebrush types, and soil regimes within large wildfires in greater sage-grouse population areas, 1984-2013 - Original Metadata",
+      "service": "Usgs",
+      "country": "US",
+      "category": "Hazards",
+      "subcategory": "",
+      "format": "xml",
+      "tags": "hazards|wildfire|statistics|open-data|no-key|xml",
+      "last_tested": "2026-11-15",
+      "host": "data.usgs.gov",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.5628198be4b0d158f5926acc.xml"
+    },
+    {
+      "title": "Annual Wildfires",
+      "service": "ArcGIS Online layers (services1.arcgis.com, org 0MSEUqKaxRlEPj5g)",
+      "country": "US",
+      "category": "Hazards",
+      "subcategory": "",
+      "format": "json",
+      "tags": "hazards|wildfire|maps|no-key|json|agent-ready",
+      "last_tested": "2026-11-14",
+      "host": "services1.arcgis.com",
+      "url": "https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Annual_Wildfires/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json"
+    },
+    {
+      "title": "1 mile wildfire buffer",
+      "service": "ArcGIS Online layers (services.arcgis.com, org YseQBnl2jq0lrUV5)",
+      "country": "",
+      "category": "Hazards",
+      "subcategory": "",
+      "format": "json",
+      "tags": "hazards|wildfire|maps|no-key|json|agent-ready",
+      "last_tested": "2026-11-14",
+      "host": "services.arcgis.com",
+      "url": "https://services.arcgis.com/YseQBnl2jq0lrUV5/arcgis/rest/services/1%20mile%20wildfire%20buffer/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json"
+    },
+    {
+      "title": "Post-wildfire debris-flow monitoring data, 2014 Silverado Fire, Orange County, California, November 2014 to January 2016. - Digital Data",
+      "service": "Doi",
+      "country": "",
+      "category": "Hazards",
+      "subcategory": "",
+      "format": "json",
+      "tags": "hazards|wildfire|open-data|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "doi.org",
+      "url": "https://doi.org/10.5066/F70K27R0"
+    },
+    {
+      "title": "Wildfire History by Age - GeoJSON",
+      "service": "Napsgfoundation",
+      "country": "",
+      "category": "Hazards",
+      "subcategory": "",
+      "format": "json",
+      "tags": "hazards|wildfire|open-data|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "prep-response-portal.napsgfoundation.org",
+      "url": "https://prep-response-portal.napsgfoundation.org/api/download/v1/items/99599b05214b452fa152fa28b0098a13/geojson?layers=0"
+    }
+  ],
+  "limits": [
+    {
+      "id": "skew",
+      "text": "80.8% of rows carry country code US; 619 rows have no code (global or unknown)."
+    },
+    {
+      "id": "stats-meta",
+      "text": "3 rows come from PxWeb or Statistics Canada services. Some statistics endpoints return metadata or a pointer on GET; the table may need a second request or a POST."
+    },
+    {
+      "id": "record-count",
+      "text": "4,823 rows are map-layer queries with resultRecordCount set: the tested call asked for a few records; change the query to get the full layer."
+    },
+    {
+      "id": "limit-1",
+      "text": "21 rows carry limit=1: the tested call asked for one record; raise the limit or page through."
+    },
+    {
+      "id": "portal",
+      "text": "21 rows are open-data portal dataset records, which may return a dataset record with links rather than the table itself."
+    },
+    {
+      "id": "files",
+      "text": "27 rows are files (zip 27) rather than bodies an agent reads directly."
+    },
+    {
+      "id": "arcgis-online",
+      "text": "4,517 rows are layers on ArcGIS Online, where anyone can publish: some are class projects, tests or copies. Check the owner and the fields before you rely on one."
+    },
+    {
+      "id": "pack",
+      "text": "20 rows are service descriptions (OGC GetCapabilities or catalogue records): they list layers or describe a dataset, so the features need a second request."
+    },
+    {
+      "id": "pack",
+      "text": "3,281 rows carry the wildfire tag but have no wildfire, fire-danger or burn term in the title. Check the title before you use one; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "34 rows are fire stations, fire districts, departments or hydrants, not wildfire data."
+    },
+    {
+      "id": "pack",
+      "text": "20 rows are layers marked superseded in their own title."
+    },
+    {
+      "id": "pack",
+      "text": "33 rows are evacuation-area snapshots with a date and time in the title; they show past areas, not current ones."
+    },
+    {
+      "id": "pack",
+      "text": "17 rows from Canadian hosts (.ca) carry another country code or none in this snapshot; filter by host when you need Canada only."
+    },
+    {
+      "id": "quiet",
+      "text": "Stations and feeds can go quiet after their test date; re-test a URL before you rely on it."
+    },
+    {
+      "id": "not-in",
+      "text": "Not in this pack: endpoints that need a key or a POST, and URLs that did not pass."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 135 ArcGIS Survey123 layers (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 2 layers marked editable in the title (they can hold entries that people added)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 18 ArcGIS layers that keep a form's default service name (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 59 ArcGIS class or coursework layers (lab, assignment, exam, quiz, lesson, exercise, tutorial and final-project layers, copies of class layers, layers named for a person or a person's home, and layers whose name ends in a person's name or holds a student number)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 6 ArcGIS layers that hold reports, comments, submissions or form responses sent in by the public."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 139 class-exercise copies of the same few wildfire layers in one ArcGIS Online organisation, many with a person's name in the title."
+    }
+  ],
+  "name": "6.5k-wildfire-apis-for-agents",
+  "old_name": "wildfire-api-endpoints",
+  "services_tested": {
+    "services": 1280,
+    "tested": 527780,
+    "passed": 438695,
+    "passed_pct": 83,
+    "line": "Across these services: 520k tested · 83% passed a keyless call",
+    "note": "Counted over the 1,280 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+  },
+  "overlaps": [
+    {
+      "repo": "weather-api-endpoints",
+      "name": "190k-weather-apis-for-agents",
+      "title": "Weather API endpoints",
+      "shared": 141
+    },
+    {
+      "repo": "transit-api-endpoints",
+      "name": "270k-transit-apis-for-agents",
+      "title": "Transit API endpoints",
+      "shared": 14
+    },
+    {
+      "repo": "water-api-endpoints",
+      "name": "270k-water-apis-for-agents",
+      "title": "Rivers and water API endpoints",
+      "shared": 80
+    },
+    {
+      "repo": "finance-economy-api-endpoints",
+      "name": "130k-finance-economy-apis-for-agents",
+      "title": "Finance and economy API endpoints",
+      "shared": 8
+    },
+    {
+      "repo": "india-api-endpoints",
+      "name": "130k-india-apis-for-agents",
+      "title": "India API endpoints",
+      "shared": 2
+    },
+    {
+      "repo": "government-open-data-api-endpoints",
+      "name": "1.3m-government-open-data-apis",
+      "title": "Government open data API endpoints",
+      "shared": 85
+    },
+    {
+      "repo": "statistics-api-endpoints",
+      "name": "290k-statistics-apis-for-agents",
+      "title": "Statistics and census API endpoints",
+      "shared": 2
+    },
+    {
+      "repo": "oceans-api-endpoints",
+      "name": "86k-oceans-apis-for-agents",
+      "title": "Ocean and marine API endpoints",
+      "shared": 6
+    },
+    {
+      "repo": "maritime-api-endpoints",
+      "name": "24k-maritime-apis-for-agents",
+      "title": "Maritime API endpoints",
+      "shared": 4
+    },
+    {
+      "repo": "environment-api-endpoints",
+      "name": "170k-environment-apis-for-agents",
+      "title": "Environment API endpoints",
+      "shared": 40
+    },
+    {
+      "repo": "air-quality-api-endpoints",
+      "name": "20k-air-quality-apis-for-agents",
+      "title": "Air quality API endpoints",
+      "shared": 15
+    },
+    {
+      "repo": "maps-gis-api-endpoints",
+      "name": "380k-maps-gis-apis-for-agents",
+      "title": "Maps and GIS API endpoints",
+      "shared": 26
+    },
+    {
+      "repo": "agent-ready-api-endpoints",
+      "name": "2.5m-agent-ready-apis",
+      "title": "Agent-ready API endpoints",
+      "shared": 6146
+    },
+    {
+      "repo": "health-api-endpoints",
+      "name": "96k-health-apis-for-agents",
+      "title": "Health API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "science-api-endpoints",
+      "name": "380k-science-apis-for-agents",
+      "title": "Science API endpoints",
+      "shared": 152
+    },
+    {
+      "repo": "hazards-api-endpoints",
+      "name": "53k-hazards-apis-for-agents",
+      "title": "Hazards and alerts API endpoints",
+      "shared": 6246
+    },
+    {
+      "repo": "energy-api-endpoints",
+      "name": "72k-energy-apis-for-agents",
+      "title": "Energy API endpoints",
+      "shared": 1
+    },
+    {
+      "repo": "aviation-api-endpoints",
+      "name": "25k-aviation-apis-for-agents",
+      "title": "Aviation API endpoints",
+      "shared": 12
+    },
+    {
+      "repo": "traffic-api-endpoints",
+      "name": "24k-traffic-apis-for-agents",
+      "title": "Traffic and roadworks API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "parking-api-endpoints",
+      "name": "12k-parking-apis-for-agents",
+      "title": "Parking API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "earthquake-api-endpoints",
+      "name": "10k-earthquake-apis-for-agents",
+      "title": "Earthquake API endpoints",
+      "shared": 33
+    },
+    {
+      "repo": "volcano-tsunami-api-endpoints",
+      "name": "5.2k-volcano-tsunami-apis-for-agents",
+      "title": "Volcano and tsunami API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "bike-share-api-endpoints",
+      "name": "17k-bike-share-apis-for-agents",
+      "title": "Bike-share API endpoints",
+      "shared": 0
+    }
+  ],
+  "pack_count": 24,
+  "services_file_rows": 1279,
+  "sample_mix": [
+    {
+      "source": "ArcGIS Online layers",
+      "focus_rows": 2554,
+      "sample_rows": 500
+    },
+    {
+      "source": "Usgs (data.usgs.gov)",
+      "focus_rows": 164,
+      "sample_rows": 95
+    },
+    {
+      "source": "Doi (doi.org)",
+      "focus_rows": 53,
+      "sample_rows": 31
+    },
+    {
+      "source": "Napsgfoundation (prep-response-portal.napsgfoundation.org)",
+      "focus_rows": 53,
+      "sample_rows": 31
+    },
+    {
+      "source": "Usda (apps.fs.usda.gov)",
+      "focus_rows": 51,
+      "sample_rows": 30
+    },
+    {
+      "source": "gisuat.mcgi.state.mi.us",
+      "focus_rows": 31,
+      "sample_rows": 19
+    },
+    {
+      "source": "www.mcgi.state.mi.us",
+      "focus_rows": 31,
+      "sample_rows": 19
+    },
+    {
+      "source": "Canadian Urban Data Catalogue (CUDC) (openmaps.gov.bc.ca)",
+      "focus_rows": 23,
+      "sample_rows": 15
+    },
+    {
+      "source": "Garfield County (maps.garfield-county.com)",
+      "focus_rows": 15,
+      "sample_rows": 10
+    },
+    {
+      "source": "Sdsc (scil-data.sdsc.edu)",
+      "focus_rows": 14,
+      "sample_rows": 9
+    }
+  ],
+  "sample_focus_rows": 3250,
+  "sample_rule": "1,000 rows, or one third of the pack rounded down, whichever is smaller",
+  "files": [
+    {
+      "name": "data/Wildfire_API_Services_AgentPopulation.csv",
+      "rows": 1279,
+      "bytes": 81276,
+      "sha256": "d878e36fcd038d932077a1b6fb562ec0418221f5cc04d8a267d9445352dcc6c2"
+    },
+    {
+      "name": "data/Wildfire_API_Endpoints_AgentPopulation_Sample.csv",
+      "rows": 1000,
+      "bytes": 336267,
+      "sha256": "bba0f9b173a397949d441692bc214a4c050fe2874bc87c9c19b54d0f7c2fa6c5"
+    },
+    {
+      "name": "data/Wildfire_API_Endpoints_AgentPopulation_Sample.json",
+      "rows": 1000,
+      "bytes": 536724,
+      "sha256": "7250df38e0d1b1def270ba62a7868340b1b9ee20e18ca3d1673e896f1944dd46"
+    }
+  ],
+  "release_asset": {
+    "name": "Wildfire_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+    "rows": 6584,
+    "bytes": 319914,
+    "raw_bytes": 2149270,
+    "sha256": "b092e9dc98fa0c278f2024723141374cd7e0e22a64cee56dacc82da7621dba04",
+    "url": "https://github.com/agentpopulation/6.5k-wildfire-apis-for-agents/releases/latest/download/Wildfire_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz"
+  },
+  "release_tag": "snapshot-2026-11-15",
+  "description": "6,584 wildfire API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "readme_ap_share": 0.085,
+  "country_counts": {
+    "US": 5323,
+    "": 619,
+    "CA": 193,
+    "AU": 161,
+    "GB": 100,
+    "ES": 28,
+    "IO": 24,
+    "IT": 24,
+    "DE": 14,
+    "CN": 12,
+    "FR": 9,
+    "CH": 7,
+    "NO": 6,
+    "SK": 6,
+    "NL": 5,
+    "EU": 4,
+    "KR": 4,
+    "TH": 4,
+    "ZA": 4,
+    "CO": 3,
+    "LA": 3,
+    "LV": 3,
+    "PT": 3,
+    "SE": 3,
+    "DK": 2,
+    "GR": 2,
+    "IN": 2,
+    "KH": 2,
+    "MM": 2,
+    "AI": 1,
+    "AT": 1,
+    "BA": 1,
+    "BT": 1,
+    "CZ": 1,
+    "HK": 1,
+    "IE": 1,
+    "MN": 1,
+    "NZ": 1,
+    "PK": 1,
+    "PR": 1,
+    "SY": 1
+  }
+}

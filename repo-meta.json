@@ -1,0 +1,36 @@
+{
+  "name": "6.5k-wildfire-apis-for-agents",
+  "old_name": "wildfire-api-endpoints",
+  "new_name": "6.5k-wildfire-apis-for-agents",
+  "url": "https://github.com/agentpopulation/6.5k-wildfire-apis-for-agents",
+  "description": "6,584 wildfire API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "homepage": "https://agentpopulation.com/apis",
+  "topics": [
+    "api-endpoints",
+    "open-data",
+    "dataset",
+    "ai-agents",
+    "agent-tools",
+    "agentpopulation",
+    "wildfire",
+    "wildfires",
+    "bushfire",
+    "fire-danger",
+    "fire-weather",
+    "fire-perimeters",
+    "natural-hazards",
+    "disaster-data",
+    "geospatial",
+    "arcgis"
+  ],
+  "release": {
+    "tag": "snapshot-2026-11-15",
+    "title": "Wildfire API endpoints · snapshot 15 Nov 2026 · 6,584 endpoints",
+    "notesFile": "RELEASE_NOTES.md",
+    "manifest": "../_release/wildfire-api-endpoints/release.json",
+    "assets": [
+      "../_release/wildfire-api-endpoints/Wildfire_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+      "../_release/wildfire-api-endpoints/SHA256SUMS.txt"
+    ]
+  }
+}

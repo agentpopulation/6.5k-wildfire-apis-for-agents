@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this list, please credit it as below."
+type: dataset
+title: "Wildfire API endpoints"
+authors:
+  - name: AgentPopulation
+    website: "https://agentpopulation.com"
+version: "2026.11.15"
+date-released: 2026-11-15
+license: CC-BY-4.0
+url: "https://agentpopulation.com"
+repository: "https://github.com/agentpopulation/6.5k-wildfire-apis-for-agents"
+abstract: "6,584 wildfire API endpoints that passed a keyless data call, tested 10–15 Nov 2026 (IST)."
+keywords:
+  - api-endpoints
+  - open-data
+  - dataset
+  - ai-agents
+  - agent-tools
+  - agentpopulation
+  - wildfire
+  - wildfires
+  - bushfire
+  - fire-danger
+  - fire-weather
+  - fire-perimeters
+  - natural-hazards
+  - disaster-data
+  - geospatial
+  - arcgis
